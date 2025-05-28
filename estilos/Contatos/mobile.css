@@ -149,6 +149,18 @@ footer p {
     max-width: 90vw;
 }
 
+/*                                                 Seção FeedBack  */
+
+#secaoFeedback {
+    width: 90vw;
+}
+#secaoFeedback h2 {
+    font-size: 2em;
+}
+#secaoFeedback div {
+    width: 50vw;
+}
+
 
 
 /*                                                 Divisões  */
