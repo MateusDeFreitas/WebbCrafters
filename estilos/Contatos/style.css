@@ -7,6 +7,7 @@
     --corpo: #000000;
     --branco: #ffffff;
     --azulCiano: #18b5d9;
+    --botaoHover: #137a91;
     --azulCinzento: #1F2F33;
     --cubos: #272a59fa;
     --footer: #0306296b;
@@ -123,6 +124,44 @@ h1 {
 }
 
 
+/*                                                 Seção FeedBack  */
+
+#secaoFeedback {
+    margin: auto;
+    width: 90vw;
+}
+#secaoFeedback hr {
+    border: none;
+    border-top: #4f5152 solid 1px;
+}
+#secaoFeedback h2 {
+    margin: 40px auto;
+    text-align: center;
+    color: var(--texto);
+}
+#secaoFeedback div {
+    margin: 60px auto 40px auto;
+    padding: 20px;
+    width: 30vw;
+    border-radius: 15px;
+    border: 2px solid var(--branco);
+    background-color: var(--preto);
+    transition: all ease 2s;
+}
+#secaoFeedback div p {
+    margin: auto;
+    text-align: center;
+    color: var(--texto);
+}
+#secaoFeedback div:hover {
+    border: 2px solid var(--branco);
+    background-color: var(--branco);
+}
+#secaoFeedback div:hover p {
+    color: var(--preto);
+}
+
+
 
 /*                                                 Divisões  */
 
@@ -133,5 +172,8 @@ h1 {
     height: 160px;
 }
 #divisaoDois {
+    height: 160px;
+}
+#divisaoTres {
     height: 160px;
 }
